@@ -1,0 +1,40 @@
+{
+  "name": "rackspace-node",
+  "version": "1.0.0",
+  "description": "🚀Unofficial Node.js SDK for Rackspace Cloud Servers API v2.0",
+  "main": "./lib/rackspace",
+  "scripts": {
+    "start": "nodemon",
+    "prettier": "prettier --write '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cheesetouched/rackspace-node.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "sdk",
+    "api",
+    "rackspace"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "author": "Rishabh Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cheesetouched/rackspace-node/issues"
+  },
+  "homepage": "https://github.com/Cheesetouched/rackspace-node#readme",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "husky": "^4.2.3",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  }
+}
