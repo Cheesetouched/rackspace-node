@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/Cheesetouched/rackspace-node#readme",
   "dependencies": {
+    "node-fetch": "^2.6.0",
     "nodemon": "^2.0.2"
   },
   "devDependencies": {
